@@ -4,6 +4,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.Before;
+import org.junit.After;
 
 /**
  * Unit test for simple App.
@@ -32,6 +33,11 @@ public class AppTest
     @Before
     public void awalTest(){
         System.out.println("mengawali test");
+    }
+    
+    @After
+    public void akhirTest(){
+        System.out.println("mengakhiri test");
     }
 
     /**
