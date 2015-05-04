@@ -29,5 +29,8 @@ public class Soal
         return bilA * bilB;
         
         }
-   
+       public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
 }
